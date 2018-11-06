@@ -1,15 +1,17 @@
 <template>
   <div class="home">
+    <div class="water">
     <div class="row">
       <div class="col-md-2">
         <KPI></KPI>
       </div>
       <div class="col-md-10">
-        <div class="water">
+
         <WorldMap></WorldMap>
-        </div>
+
       </div>
     </div>
+  </div>
   </div>
 </template>
 
