@@ -36,7 +36,7 @@
         <v-subheader><h3>Other Players</h3><v-btn @click="initPlayers" icon>
             <v-icon color="grey">refresh</v-icon>
         </v-btn> </v-subheader>
-        <template  v-for="(item, index) in players">
+        <template  v-for="(item) in players">
           <v-list-tile
                   :key="item.title"
                   avatar
